@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+img{
+    position: relative;
+    height: 300px;
+    top: 200px;
+    left: 850px;
+    border-radius: 20px;
+    transform: rotate(20deg) skew(-10deg, -10deg);
+    transition: translate 0.5s, box-shadow 0.5s;
+}
+
+img:hover{
+    translate: 0 -30px;
+    box-shadow: 10px 10px rgb(217, 220, 242, 75%),
+                20px 20px rgb(44, 217, 255, 50%),
+                30px 30px rgb(126, 255, 178, 25%);
+}
